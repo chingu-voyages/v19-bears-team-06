@@ -1,10 +1,11 @@
 import React from 'react'
 
-import { ExampleComponent } from 'github-timeline'
+import  GithubTimeline from 'github-timeline'
 import 'github-timeline/dist/index.css'
+// import GithubTimeline from '../../src'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <GithubTimeline username="jaywood128" />
 }
 
 export default App
